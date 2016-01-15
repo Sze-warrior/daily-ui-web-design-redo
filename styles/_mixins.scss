@@ -1,0 +1,10 @@
+$background-blue-start: #7683F2;
+$background-blue-end: #7184BC;
+
+@mixin background-blue($start-color, $end-color){
+	background: $background-blue-start; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($background-blue-start, $background-blue-end); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($background-blue-start, $background-blue-end); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($background-blue-start, $background-blue-end); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($background-blue-start, $background-blue-end); /* Standard syntax */
+}

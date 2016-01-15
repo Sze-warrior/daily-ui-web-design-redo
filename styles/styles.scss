@@ -1,0 +1,36 @@
+@import "variables";
+@import "main";
+@import "mixins";
+
+
+///Variables used in the Daily UI Design landing page.
+
+
+body{
+
+	font-family: 'Open Sans', 'Helvetica', 'Arial'; 
+	font-size: 16px;
+
+	&.background-blue{
+		@include background-blue(#7683F2, #7184BC);
+	}
+
+}
+
+.col-12{
+
+	h1{
+		font-size: 22px;
+		text-align: center;
+		font-weight: 200;
+
+		&:first-child{
+			padding-top: 40px;
+		}
+	}	
+
+	&.background-white {
+		background: white;
+		color: #7683F2;
+	}
+}
