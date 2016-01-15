@@ -17,7 +17,7 @@ body{
 
 }
 
-.col-12{
+.daily-ui-container{
 
 	h1{
 		font-size: 40px;
@@ -27,10 +27,26 @@ body{
 		&:first-child{
 			padding-top: 40px;
 		}
-	}	
+	}
+
+	p {
+		text-align: $center;
+	}
+
+	.input-field {
+		text-align: $center;
+
+		input{
+			width: 70%;
+    		height: 50px;
+    		border-color: $background-blue-start;
+    		border-style: solid;
+		}
+	}
 
 	&.background-white {
-		background: white;
-		color: #7683F2;
+		background: $white;
+   		color: $background-blue-start;
+    	padding: 40px $zero;
 	}
 }
