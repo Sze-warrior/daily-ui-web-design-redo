@@ -38,10 +38,10 @@ p { text-align: left; }
 
 .col-1:last-child, .col-2:last-child, .col-3:last-child, .col-4:last-child, .col-5:last-child, .col-6:last-child, .col-7:last-child, .col-8:last-child, .col-9:last-child, .col-10:last-child, .col-11:last-child, .col-12:last-child { margin-right: 0; }
 
-body { font-family: 'Open Sans', 'Helvetica', 'Arial'; font-size: 16px; }
+body { font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; font-size: 16px; }
 body.background-blue { background: #7683F2; /* For browsers that do not support gradients */ background: -webkit-linear-gradient(#7683F2, #7184BC); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ background: linear-gradient(#7683F2, #7184BC) /* Standard syntax */ }
 
-.col-12 h1 { font-size: 22px; text-align: center; font-weight: 200; }
+.col-12 h1 { font-size: 40px; text-align: center; font-weight: 200; }
 .col-12 h1:first-child { padding-top: 40px; }
 .col-12.background-white { background: white; color: #7683F2; }
 
