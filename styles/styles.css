@@ -42,10 +42,10 @@ body { font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; font-size: 16px
 body.background-blue { background: #7683F2; /* For browsers that do not support gradients */ background: -webkit-linear-gradient(#7683F2, #7184BC); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ background: linear-gradient(#7683F2, #7184BC) /* Standard syntax */ }
 
 .daily-ui-container h1 { font-size: 40px; text-align: center; font-weight: 200; }
-.daily-ui-container h1:first-child { padding-top: 40px; }
 .daily-ui-container p { text-align: center; }
 .daily-ui-container .input-field { text-align: center; }
-.daily-ui-container .input-field input { width: 70%; height: 50px; border-color: #7683F2; border-style: solid; }
-.daily-ui-container.background-white { background: #fff; color: #7683F2; padding: 40px 0; }
+.daily-ui-container .input-field input { width: 300px; height: 50px; border-color: #7683F2; border-style: solid; font-size: 28px; font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; margin-left: 8px; }
+.daily-ui-container .input-field, .daily-ui-container .send-btn { float: left; display: inline; }
+.daily-ui-container.background-white { background: #fff; color: #7683F2; padding: 40px 0; box-shadow: 5px 10px 55px -20px black; }
 
 /*# sourceMappingURL=styles.css.map */
