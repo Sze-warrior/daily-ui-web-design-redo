@@ -21,11 +21,15 @@ body{
 
 	h1{
 		font-size: 40px;
-		text-align: center;
 		font-weight: 200;
+		margin: 0px 0px 10px;
 	}
 
-	p {
+	p{
+		margin: 0px 0px 30px;
+	}
+
+	h1,h4,p {
 		text-align: $center;
 	}
 
@@ -50,6 +54,7 @@ body{
 
 	.send-btn {
 		background-color: $black;
+		margin-right: 40px;
 
 		p {
 			margin: 0px;

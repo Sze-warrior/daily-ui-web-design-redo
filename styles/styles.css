@@ -41,12 +41,13 @@ p { text-align: left; }
 body { font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; font-size: 16px; }
 body.background-blue { background: #7683F2; /* For browsers that do not support gradients */ background: -webkit-linear-gradient(#7683F2, #7184BC); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ background: linear-gradient(#7683F2, #7184BC) /* Standard syntax */ }
 
-.daily-ui-container h1 { font-size: 40px; text-align: center; font-weight: 200; }
-.daily-ui-container p { text-align: center; }
+.daily-ui-container h1 { font-size: 40px; font-weight: 200; margin: 0px 0px 10px; }
+.daily-ui-container p { margin: 0px 0px 30px; }
+.daily-ui-container h1, .daily-ui-container h4, .daily-ui-container p { text-align: center; }
 .daily-ui-container .col-2 { width: 11.716%; background: none; }
 .daily-ui-container .input-field { text-align: center; }
 .daily-ui-container .input-field input { width: 390px; height: 50px; border-color: #7683F2; border-style: solid; font-size: 28px; font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; margin-left: 20px; }
-.daily-ui-container .send-btn { background-color: black; }
+.daily-ui-container .send-btn { background-color: black; margin-right: 40px; }
 .daily-ui-container .send-btn p { margin: 0px; padding: 19px 29px; }
 .daily-ui-container .input-field, .daily-ui-container .send-btn { float: left; display: inline; }
 .daily-ui-container.background-white { background: #fff; color: #7683F2; padding: 40px 0; box-shadow: 5px 10px 55px -20px black; }
