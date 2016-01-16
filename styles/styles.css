@@ -49,12 +49,13 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 @media screen and (max-width: 700px) { .daily-ui-container .form-space-left { display: none; } }
 .daily-ui-container .field-email { text-align: center; }
 .daily-ui-container .field-email input { width: 390px; height: 50px; border-color: #7683F2; border-style: solid; font-size: 28px; font-family: 'Open Sans Light 300', 'Helvetica', 'Arial'; margin-left: 25px; }
-@media screen and (max-width: 700px) { .daily-ui-container .field-email input { width: 90%; margin-bottom: 30px; height: 50px; margin-left: 0; } }
+@media screen and (max-width: 700px) { .daily-ui-container .field-email input { width: 90%; margin-left: 10px; } }
 .daily-ui-container .btn-send { background-color: #7683F2; }
 .daily-ui-container .btn-send p { margin: 0; padding: 19px 29px; color: #fff; }
-@media screen and (max-width: 700px) { .daily-ui-container .btn-send { width: 100%; } }
+@media screen and (max-width: 700px) { .daily-ui-container .btn-send p { margin-top: 11px; } }
+@media screen and (max-width: 700px) { .daily-ui-container .btn-send { width: 50%; text-align: center; margin-top: 50px; } }
 .daily-ui-container .field-email, .daily-ui-container .btn-send { float: left; display: inline; }
-@media screen and (max-width: 700px) { .daily-ui-container .field-email, .daily-ui-container .btn-send { width: 100%; } }
+@media screen and (max-width: 700px) { .daily-ui-container .field-email, .daily-ui-container .btn-send { margin: 0 auto; display: block; float: none; } }
 .daily-ui-container .how-it-works { width: 100%; float: left; display: block; padding: 30px 0 0; }
 .daily-ui-container .how-it-works .how-it-works-steps ul { max-width: 390px; margin: 0 auto; }
 .daily-ui-container .how-it-works .how-it-works-steps ul li { padding-bottom: 10px; }
@@ -62,8 +63,10 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 .daily-ui-container .btns-social { width: 100%; float: left; display: block; padding: 30px 0 0; }
 .daily-ui-container .btns-social ul { margin: 0 auto; width: 210px; }
 .daily-ui-container .btns-social ul li { float: left; display: block; margin: 10px; }
+@media screen and (max-width: 700px) { .daily-ui-container .btns-social { padding: 0; } }
 .daily-ui-container .btn-email { margin: 0 auto; float: left; width: 100%; }
 .daily-ui-container .btn-email button { text-align: center; margin: 0; padding: 40px 0px 20px; color: #fff; }
 .daily-ui-container .btn-email button.email-radius { display: block; margin: 0 auto; margin-top: 30px; padding: 15px 60px; border-radius: 5px; border: none; font-size: 16px; background: #7683F2; }
+@media screen and (max-width: 700px) { .daily-ui-container { display: block; } }
 
 /*# sourceMappingURL=styles.css.map */

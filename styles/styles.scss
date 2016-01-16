@@ -72,9 +72,7 @@ body{
 
     		@media screen and (max-width: 700px){
 				width: 90%;
-    			margin-bottom: 30px;
-    			height: 50px;
-    			margin-left: $zero;
+    			margin-left: 10px;
     		}
 		}
 	}
@@ -85,12 +83,18 @@ body{
 		p {
 			margin: $zero;
 			padding: 19px 29px;	
-			color: $white;				
+			color: $white;	
+
+			@media screen and (max-width:700px){
+				margin-top: 11px;
+			}			
 		}
 
 		@media screen and (max-width:700px){
-			width: 100%;
-		}
+    		width: 50%;
+    		text-align: center;
+    		margin-top: 50px;
+    	}
 	}
 
 	.field-email, .btn-send {
@@ -98,7 +102,11 @@ body{
 		display: inline;
 
 		@media screen and (max-width:700px){
-			width: 100%;
+		
+			margin: 0 auto;
+			display: block;
+			float: none;
+
 		}		
 	}
 
@@ -140,6 +148,11 @@ body{
     				display: block;
     				margin: 10px;
 				}
+		}
+
+		@media screen and (max-width: 700px){
+		padding: $zero;
+
 		}	
 	}
 
@@ -166,6 +179,10 @@ body{
     		}
 	
 		}
+	}
+
+	@media screen and (max-width: 700px){
+		    display: block;
 	}
 
 }
