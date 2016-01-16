@@ -67,7 +67,7 @@ body{
    			border-style: solid;
   			font-size: 28px;
     		font-family: 'Open Sans Light 300', 'Helvetica', 'Arial';
-    		margin-left: 20px;
+    		margin-left: 25px;
 
     		@media screen and (max-width: 700px){
 				width: 90%;
@@ -78,11 +78,12 @@ body{
 	}
 
 	.btn-send {
-		background-color: $black;
+		background-color: $background-blue-start;
 
 		p {
 			margin: 0px;
-			padding: 19px 29px;		
+			padding: 19px 29px;	
+			color: $white;				
 		}
 
 		@media screen and (max-width:700px){
@@ -106,17 +107,38 @@ body{
 		padding: 30px 0px 0px;
 
 		.how-it-works-steps{
-
-    		max-width: 390px;
-    		margin: 0 auto;			
-
+		
 			ul{
-
+    			max-width: 390px;
+    			margin: 0 auto;	
+				
 				li{
 					padding-bottom: 10px;
 				}
 			}
 		}
+	}
+
+	.btns-social {
+		width: 100%;
+		float:left;
+		display:block;
+		padding: 30px 0px 0px;
+
+		p{
+			text-align: $center;
+		}	
+
+		ul{ 
+			margin: 0 auto;
+    		width: 300px;
+
+				li{
+					float: left;
+    				display: block;
+    				margin: 10px;
+				}
+		}	
 	}
 
 }
