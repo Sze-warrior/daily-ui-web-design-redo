@@ -23,7 +23,7 @@ body{
 	h1{
 		font-size: 40px;
 		font-weight: 200;
-		margin: 0px 0px 10px;
+		margin: $zero $zero 10px;
 		text-align: $center
 	}
 
@@ -36,7 +36,7 @@ body{
 		text-align: $center;		
 
 		&:first-child{
-			margin: 0px 0px 30px;
+			margin-bottom: 30px;
 		}
 	}
 
@@ -45,6 +45,7 @@ body{
    		color: $background-blue-start;
     	padding: 40px $zero;
     	@include drop-shadow($black);
+    	margin-top: 20px;
 	}	
 
 	.form-space-left {
@@ -71,8 +72,9 @@ body{
 
     		@media screen and (max-width: 700px){
 				width: 90%;
-    			margin: 0px 0px 30px 0px;
+    			margin-bottom: 30px;
     			height: 50px;
+    			margin-left: $zero;
     		}
 		}
 	}
@@ -81,7 +83,7 @@ body{
 		background-color: $background-blue-start;
 
 		p {
-			margin: 0px;
+			margin: $zero;
 			padding: 19px 29px;	
 			color: $white;				
 		}
@@ -104,34 +106,34 @@ body{
 		width: 100%;
 		float:left;
 		display:block;
-		padding: 30px 0px 0px;
+		padding: 30px $zero $zero;
 
 		.how-it-works-steps{
 		
 			ul{
     			max-width: 390px;
-    			margin: 0 auto;	
+    			margin: $zero auto;	
 				
 				li{
 					padding-bottom: 10px;
 				}
-			}
+
+				@media screen and (max-width:700px){
+    			max-width: 260px;
 		}
+			}
+		}	
 	}
 
 	.btns-social {
 		width: 100%;
 		float:left;
 		display:block;
-		padding: 30px 0px 0px;
-
-		p{
-			text-align: $center;
-		}	
+		padding: 30px $zero $zero;
 
 		ul{ 
-			margin: 0 auto;
-    		width: 300px;
+			margin: $zero auto;
+    		width: 210px;
 
 				li{
 					float: left;
@@ -139,6 +141,31 @@ body{
     				margin: 10px;
 				}
 		}	
+	}
+
+	.btn-email {
+			margin: $zero auto;
+			float: left;
+			width: 100%;
+	
+		button{
+			text-align: center;
+   			margin: $zero;
+    		padding: 40px 0px 20px;
+    		color: $white; 
+
+    		&.email-radius {
+    			display: block;
+    			margin: 0 auto;
+    			margin-top: 30px;
+    			padding: 15px 60px;
+    			border-radius: 5px;
+    			border: none;
+    			font-size: 16px;
+    			background: $background-blue-start;
+    		}
+	
+		}
 	}
 
 }
