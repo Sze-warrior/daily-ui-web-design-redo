@@ -58,5 +58,6 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 .daily-ui-container .field-email, .daily-ui-container .btn-send { float: left; display: inline; }
 @media screen and (max-width: 700px) { .daily-ui-container .field-email, .daily-ui-container .btn-send { width: 100%; } }
 .daily-ui-container .how-it-works { width: 100%; float: left; display: block; padding: 40px 0px 0px; }
+.daily-ui-container .how-it-works ul li { padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
