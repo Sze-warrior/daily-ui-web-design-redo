@@ -146,7 +146,15 @@ body{
 				li{
 					float: left;
     				display: block;
-    				margin: 10px;
+    				margin-right: 10px;
+    				background-color: #0056FF;
+    				padding: 5px;
+    				color: $white;
+
+    				&.btn-like {
+    				    padding: 5px 10px;
+    					margin-left: -5px;
+    				}
 				}
 		}
 
