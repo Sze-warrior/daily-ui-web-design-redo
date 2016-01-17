@@ -58,8 +58,8 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 @media screen and (max-width: 700px) { .daily-ui-container .field-email, .daily-ui-container .btn-send { margin: 0 auto; display: block; float: none; } }
 .daily-ui-container .how-it-works { width: 100%; float: left; display: block; padding: 30px 0 0; }
 .daily-ui-container .how-it-works .how-it-works-steps ul { max-width: 390px; margin: 0 auto; }
-.daily-ui-container .how-it-works .how-it-works-steps ul a { color: red; }
-.daily-ui-container .how-it-works .how-it-works-steps ul a:hover { color: black; }
+.daily-ui-container .how-it-works .how-it-works-steps ul a { color: #7683F2; }
+.daily-ui-container .how-it-works .how-it-works-steps ul a:hover { color: #c2c2c2; }
 .daily-ui-container .how-it-works .how-it-works-steps ul li { padding-bottom: 10px; }
 @media screen and (max-width: 700px) { .daily-ui-container .how-it-works .how-it-works-steps ul { max-width: 260px; } }
 .daily-ui-container .btns-social { width: 100%; float: left; display: block; padding: 30px 0 0; }

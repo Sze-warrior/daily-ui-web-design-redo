@@ -123,10 +123,10 @@ body{
     			margin: $zero auto;	
 
     			a{
-					color: red;
+					color: $background-blue-start;
 
 					&:hover{
-						color: black;
+						color: #c2c2c2;
 					}
 				}     			
 				
