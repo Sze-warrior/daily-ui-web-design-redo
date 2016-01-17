@@ -72,7 +72,7 @@ body{
 
     		@media screen and (max-width: 700px){
 				width: 90%;
-    			margin-left: 10px;
+    			margin-left: $zero;
     		}
 		}
 	}
@@ -121,6 +121,14 @@ body{
 			ul{
     			max-width: 390px;
     			margin: $zero auto;	
+
+    			a{
+					color: red;
+
+					&:hover{
+						color: black;
+					}
+				}     			
 				
 				li{
 					padding-bottom: 10px;
@@ -139,21 +147,38 @@ body{
 		display:block;
 		padding: 30px $zero $zero;
 
+
 		ul{ 
 			margin: $zero auto;
-    		width: 210px;
+    		width: 210px;   
+
+    			a {
+
+    				li{
+    					color: $white;
+
+    					&:hover {
+    						color: #c2c2c2;	
+    					}
+    				} 
+    			}
 
 				li{
 					float: left;
     				display: block;
     				margin-right: 10px;
-    				background-color: #0056FF;
+    				background-color: $twitter-blue;
     				padding: 5px;
     				color: $white;
 
     				&.btn-like {
     				    padding: 5px 10px;
     					margin-left: -5px;
+    					background-color: $facebook-blue;
+    				}
+
+    				&.btn-share {
+    					background-color: $facebook-blue;    					
     				}
 				}
 		}
