@@ -1,15 +1,19 @@
 @import "variables";
+@import "misc";
 
+html{ 
+    height: $one-hundred-percentage;
+}
 
 body {
-    height: 100%;
+    height: $one-hundred-percentage;
     margin: $zero;
     padding: $zero;
     color: black;
 }
 
 p{
-    text-align: left;
+    text-align: $left;
 }
 
 .container {
@@ -19,9 +23,9 @@ p{
 }
 
 .row{
-    padding: 15px 0px;
+    padding: 15px $zero;
 	width: $one-hundred-percentage;
-    float: left;
+    float: $left;
 
 }
 
