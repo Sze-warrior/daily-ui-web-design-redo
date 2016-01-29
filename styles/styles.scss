@@ -79,6 +79,13 @@ body{
 
 	.btn-send {
 		background-color: $background-blue-start;
+		@include hover-transition($transition-timing);
+
+		&:hover{
+			cursor: pointer;
+			background-color: $blue-hover;
+			@include hover-transition($transition-timing);
+		}
 
 		p {
 			margin: $zero;
@@ -124,9 +131,12 @@ body{
 
     			a{
 					color: $background-blue-start;
+					@include hover-transition($transition-timing);
 
 					&:hover{
-						color: #c2c2c2;
+						color: $blue-hover;
+						@include hover-transition($transition-timing);
+
 					}
 				}     			
 				
@@ -156,9 +166,12 @@ body{
 
     				li{
     					color: $white;
+			  			@include hover-transition($transition-timing);
 
     					&:hover {
     						color: $grey-hover;	
+    						@include hover-transition($transition-timing);
+
     					}
     				} 
     			}
@@ -209,8 +222,13 @@ body{
     			border: none;
     			font-size: 16px;
     			background: $background-blue-start;
+				@include hover-transition($transition-timing);
     		}
-	
+    		&:hover {
+    			background: $blue-hover;   
+    			cursor: pointer; 	
+    			@include hover-transition($transition-timing);	
+    		}	
 		}
 	}
 

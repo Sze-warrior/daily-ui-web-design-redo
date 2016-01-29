@@ -10,5 +10,12 @@
 
 @mixin drop-shadow ($dropshadow-start-color){
 	    box-shadow: 5px 10px 55px -20px $dropshadow-start-color;
+}
+
+@mixin hover-transition($transition-timing){
+	transition: all linear $transition-timing;
+	-webkit-transition: all linear $transition-timing;
+	-moz-transition: all linear $transition-timing;
+	-o-transition: all linear $transition-timing;
 
 }
