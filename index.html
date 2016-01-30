@@ -17,17 +17,27 @@
 	    		<h1 id="header">Daily UI</h1>
 	    		<p>Become a better designer in 100 days</p>	
 
-	    		<div class="form-space-left">	
-	    			<p></p>	
-	    		</div>
+				
+				<form method="POST" action="success.html" onsubmit="return formValidation()">
+
+					<div class="col-12 error-msg">
+						<span id="email-error">
+	    					Please enter a valid email address!
+	    				</span>
+    				</div>
+
+		    		<div class="form-space-left">	
+	    				<p></p>	
+	    			</div>
 	    		
-	    		<div class="field-email">
-	    			<input type="text">
-	    		</div>
+	    			<div class="field-email">
+	    				<input type="text" id="email" name="email">
+	    			</div>
 	    		
-	    		<div class="btn-send">
-	    			<p>Send</p>
-	    		</div>
+	    			<button class="btn-send">
+	    				Send
+	    			</button>
+	    		</form>
 
 	    		<div class="how-it-works">
 	    			<h4>How it works</h4>
@@ -74,6 +84,7 @@
 		}
 	</script>
 	<script src="js/jQuery-effects.js"></script>
+	<script src="js/form-validation.js"></script>
 
    </body>
 </html>
