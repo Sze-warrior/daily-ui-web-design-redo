@@ -14,7 +14,7 @@
 		
 		<section class="row">
 	    	<div class="col-12 daily-ui-container background-white">
-	    		<h1>Daily UI</h1>
+	    		<h1 id="header">Daily UI</h1>
 	    		<p>Become a better designer in 100 days</p>	
 
 	    		<div class="form-space-left">	
@@ -64,8 +64,16 @@
 	    		</div>
 
 	    	</div>
-		</section>		
-							
+		</section>							
 	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		if (typeof jQuery == 'undefined') {
+			document.write('<script src="js/jquery-1.12.0.min.js">\x3C/script>');
+		}
+	</script>
+	<script src="js/jQuery-effects.js"></script>
+
    </body>
 </html>
