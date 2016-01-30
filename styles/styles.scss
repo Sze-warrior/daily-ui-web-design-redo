@@ -124,6 +124,8 @@ body{
 		padding: 30px $zero $zero;
 
 		.how-it-works-steps{
+					@include hover-transition($transition-timing);
+
 		
 			ul{
     			max-width: 390px;
@@ -131,10 +133,9 @@ body{
 
     			a{
 					color: $background-blue-start;
-					@include hover-transition($transition-timing);
 
 					&:hover{
-						color: $blue-hover;
+						color: $grey-hover;
 						@include hover-transition($transition-timing);
 
 					}
