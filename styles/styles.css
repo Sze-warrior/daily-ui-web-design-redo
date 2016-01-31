@@ -72,9 +72,10 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 .daily-ui-container .btns-social ul { margin: 0 auto; width: 210px; }
 .daily-ui-container .btns-social ul a li { color: #fff; transition: all linear 0.1s; -webkit-transition: all linear 0.1s; -moz-transition: all linear 0.1s; -o-transition: all linear 0.1s; }
 .daily-ui-container .btns-social ul a li:hover { color: #c2c2c2; transition: all linear 0.1s; -webkit-transition: all linear 0.1s; -moz-transition: all linear 0.1s; -o-transition: all linear 0.1s; }
-.daily-ui-container .btns-social ul li { float: left; display: block; margin-right: 10px; background-color: #55acee; padding: 5px; color: #fff; }
+.daily-ui-container .btns-social ul li { float: left; display: block; margin-right: 10px; padding: 5px; color: #fff; }
 .daily-ui-container .btns-social ul li.btn-like { padding: 5px 10px; margin-left: -5px; background-color: #3b5998; }
 .daily-ui-container .btns-social ul li.btn-share { background-color: #3b5998; }
+.daily-ui-container .btns-social ul li.btn-tweet { background-color: #55acee; }
 @media screen and (max-width: 700px) { .daily-ui-container .btns-social { padding: 0; } }
 .daily-ui-container .btn-email { margin: 0 auto; float: left; width: 100%; }
 .daily-ui-container .btn-email button { text-align: center; margin: 0; padding: 40px 0 20px; color: #fff; }

@@ -202,7 +202,6 @@ body{
 					float: left;
     				display: block;
     				margin-right: 10px;
-    				background-color: $twitter-blue;
     				padding: 5px;
     				color: $white;
 
@@ -214,6 +213,10 @@ body{
 
     				&.btn-share {
     					background-color: $facebook-blue;    					
+    				}
+
+    				&.btn-tweet {
+    					background-color: $twitter-blue;
     				}
 				}
 		}
