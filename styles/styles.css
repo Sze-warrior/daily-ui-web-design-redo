@@ -65,7 +65,7 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 .daily-ui-container .how-it-works { width: 100%; float: left; display: block; padding: 30px 0 0; }
 .daily-ui-container .how-it-works .how-it-works-steps { transition: all linear 0.1s; -webkit-transition: all linear 0.1s; -moz-transition: all linear 0.1s; -o-transition: all linear 0.1s; }
 .daily-ui-container .how-it-works .how-it-works-steps ul { max-width: 390px; margin: 0 auto; }
-.daily-ui-container .how-it-works .how-it-works-steps ul a { color: #7683F2; }
+.daily-ui-container .how-it-works .how-it-works-steps ul a { color: #7683F2; transition: all linear 0.1s; -webkit-transition: all linear 0.1s; -moz-transition: all linear 0.1s; -o-transition: all linear 0.1s; }
 .daily-ui-container .how-it-works .how-it-works-steps ul a:hover { color: #c2c2c2; transition: all linear 0.1s; -webkit-transition: all linear 0.1s; -moz-transition: all linear 0.1s; -o-transition: all linear 0.1s; }
 .daily-ui-container .how-it-works .how-it-works-steps ul li { padding-bottom: 10px; }
 .daily-ui-container .btns-social { width: 100%; float: left; display: block; padding: 30px 0 0; }
