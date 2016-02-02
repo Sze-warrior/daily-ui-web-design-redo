@@ -232,13 +232,18 @@ body{
 			margin: $zero auto;
 			float: $left;
 			width: $one-hundred-percentage;
-	
+
+    		a{
+				text-decoration: none;
+			}
+
 		button{
 			text-align: $center;
    			margin: $zero;
     		padding: 40px $zero 20px;
     		color: $white; 
-
+    	
+    	
     		&.email-radius {
     			display: block;
     			margin: $zero auto;
