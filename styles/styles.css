@@ -43,6 +43,7 @@ body.background-blue { background: #7683F2; /* For browsers that do not support 
 
 .daily-ui-container { width: 100%; }
 .daily-ui-container h1 { font-size: 40px; font-weight: 200; margin: 0 0 10px; text-align: center; }
+.daily-ui-container h2 { text-align: center; }
 .daily-ui-container h4 { text-align: center; }
 .daily-ui-container p { text-align: center; }
 .daily-ui-container p:first-child { margin-bottom: 30px; }

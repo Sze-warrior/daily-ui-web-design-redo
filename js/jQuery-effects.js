@@ -29,4 +29,5 @@ $(document).ready(function(){
 
 	//The Daily UI title coming in from the left.
     $("#header").hide().show('slow');
+    $(".btn-email").hide().show('slow');
 });
