@@ -27,7 +27,7 @@ $(document).ready(function(){
     }); 
 	//The Twitter tweet button interaction
 
-	//The Daily UI title coming in from the left.
+	//The Daily UI title and email button coming in from the left.
     $("#header").hide().show('slow');
     $(".btn-email").hide().show('slow');
 });
