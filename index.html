@@ -18,7 +18,7 @@
 	    		<p>Become a better designer in 100 days</p>	
 
 				
-				<form method="POST" action="success.html" onsubmit="return formValidation()">
+				<form id="email-form" method="get" action="success.html" onsubmit="javascript:return validate('email-form','email');">
 
 					<div class="col-12 error-msg">
 						<span id="email-error">
@@ -86,7 +86,8 @@
 		}
 	</script>
 	<script src="js/jQuery-effects.js"></script>
-	<script src="js/form-validation.js"></script>
+	<!--<script src="js/form-validation.js"></script> -->
+	<script src="js/Email-Validation.js"></script>
 
    </body>
 </html>
